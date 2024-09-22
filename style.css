@@ -1,0 +1,123 @@
+
+body{
+    font-family:"Roboto", sans-serif ;
+}
+header{
+ width: 1920px;
+}
+.upper-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:100px;
+}
+.navbar a{
+   margin: 5px 5px; 
+   text-decoration: none;
+   color:black;
+   width:99px;
+   height: 16px;
+   size:16px;
+
+}
+.second-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:100px 300px;
+}
+.second-header-section{
+    margin-right: 50px;
+}
+.second-header-aside{
+   margin-left: 50px;
+}
+.second-header-h1{
+    padding: 20px;
+}
+.second-header-h1 h1{
+    width:600px;
+    height:100px;
+    size:100px;
+    line-height:3em;
+    font-size: 2rem;
+}
+.second-header-p{
+  width:540px;
+  height: 67px;
+}
+.second-header-p p{
+    size:16px;
+    line-height: 26px;
+    color:grey
+}
+.second-header-btn{
+    margin-top: 50px;
+    width:225px;
+    height: 65px;
+}
+.second-header-btn button{
+    width: 100%;
+    border: 2px solid rgb(13, 86, 101);
+    padding: 15px 20px;
+    background: rgb(13, 86, 101);
+    color:white;
+}
+.second-header-btn button:hover{
+    border: 3px solid blue;
+    cursor: pointer;
+}
+/* about me section */
+.about-me{
+    width:540px;
+    height:147px;
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: 200px;
+}
+.about-me-h1{
+    width:403px;
+    height: 30px;
+    margin: 20px 0px 30px 350px;
+}
+.about-me-h1 h1{
+    font-size:32px;
+    line-height: 38px;
+     align-items: center;
+}
+.about-me-p{
+    width:540px;
+    height: 67px; 
+    margin-left: 200px;  
+}
+.about-me-p p{
+    font-size: 20px;
+    color:grey;
+    height: 67px; 
+    text-indent: 50px;
+    gap:unset;
+}
+
+.projects{
+    background:#34547A;
+    width:1920;
+    height: 250px;
+    padding: 200px 100px 0px 100px;
+
+}
+.projects ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+}
+.projects-li{
+    width:141px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
