@@ -3,7 +3,7 @@ body{
     font-family:"Roboto", sans-serif;
 }
 .container{
-    width: 100%;
+    width: 1920px;
   
 }
 header{
@@ -109,7 +109,7 @@ header{
 }
 
 .projects{
-    width:100%;
+    width:1920px;
     height: 250px;
     background:#34547A;
     padding: 200px 100px 0px 150px;
@@ -138,7 +138,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0px 15px 30px;  
+    padding: 50px 0px 100px 90px; 
+    margin: 30px 100px 0px 300px; 
 }
 .skills-list{
     width:445px;
@@ -164,4 +165,48 @@ header{
    width:445px;
    height: 4px;
    background-image: linear-gradient(to right, #34547A 70%, #C4C4C4 30%); 
+}
+.my-works{
+    width:1920px;
+    height:1004px;
+    background: whitesmoke;
+    padding-top: 30px;
+}
+.my-works-title{
+    width:540px;
+    height:147px;
+    margin-left:600px;
+    margin-top: 150px;
+}
+.my-works-title h1{
+    width:403px;
+    height:30px;
+    font-size:32px;
+    font-weight: bold;
+    line-height:38px;
+    text-align: center;
+    margin-left: 50px;
+}
+.my-works-title p{
+    width:540px;
+    height:67px;
+    font-size:16px;
+    text-align: center;
+    margin-top: 20px;
+    color: #727272;
+}
+.my-work-video{
+    width:1110px;
+    height:500px;
+    background-image: url(/img/Rectangle.png);
+    margin:20px 0px 20px 400px; 
+    padding: 20px 20px 20px 20px;
+}
+#video-btn{
+   width:100px;
+   height: 100px;
+   align-items: center;
+   margin-top: 200px;
+   margin-left: 450px;
+   
 }
