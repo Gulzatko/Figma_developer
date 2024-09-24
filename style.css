@@ -210,3 +210,32 @@ header{
    margin-left: 450px;
    
 }
+
+.my-imgs{
+   width:1920px;
+   height: 960px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+   
+ 
+}
+.my-imgs > div >img{
+   width:480px;
+   height:480px;
+   
+}
+.eye-sticker{
+    position:relative;
+    top:0;
+     left:0
+}
+#computer{
+    position: relative;
+    top:0;
+    left:0;
+     opacity: 0.2;
+}
+#eye{
+    position: absolute;
+}
