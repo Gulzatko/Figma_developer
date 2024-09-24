@@ -70,7 +70,7 @@ header{
     width: 100%;
     border: 2px solid rgb(13, 86, 101);
     padding: 15px 20px;
-    background: rgb(13, 86, 101);
+    background:#34547A;
     color:white;
 }
 .second-header-btn button:hover{
@@ -216,9 +216,6 @@ header{
    height: 960px;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
- 
-   
- 
 }
 .my-imgs > div >img{
    width:480px;
@@ -234,8 +231,105 @@ header{
     position: relative;
     top:0;
     left:0;
-     opacity: 0.2;
+     opacity: 0.4;
 }
 #eye{
     position: absolute;
+    z-index: 1;
+    width:150px;
+    height: 150px;
+    margin-left:200px;
+    margin-top:200px ;
+}
+
+.microsoft{
+    width:1920px;
+    height: 200px;
+    margin-top: 50px;
+}
+.microsoft ul{
+    width:1110px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+}
+.microsoft ul>li>img{
+    width:255px;
+    height: 120px;
+}
+.log-in{
+    width:1920px;
+    height: 762px;
+    background: whitesmoke;
+    padding-top: 30px;
+}
+.log-in-title{
+    width:540px;
+    height: 150px;
+    margin-left: 500px;
+
+}
+.log-in-title h1{
+    width:500px;
+    height: 30px;
+    align-self: center;
+    font-size: 30px;
+    line-height: 38px;
+     margin-top: 20px;
+     margin-left: 100px;
+}
+.log-in-title p{
+    width:540px;
+    font-size: 16px;
+    line-height: 27px;
+    align-items: center;
+    color:#727272;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.log-in form{
+    width:540px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+#login-name,#login-email{
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    color:#5F5D5D;
+    background: white;
+    border: none;
+}
+#login-email{
+    margin-left: 10px;
+}
+#login-message{
+   width:525px;
+   height: 175px;
+   border: none;
+   margin-top: 30px;
+   padding-bottom: 30px;
+}
+#login-btn{
+ width:190px;
+ height: 55px;
+ margin-top: 30px;
+ border: none;
+ background: #34547A;
+ color: white;
+ font-size: 14px;
+ line-height: 23px;
+ margin-left: 150px;
+}
+
+.footer{
+    width:1920px;
+    height: 151px;
+    background: #34547A;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    color: white;
 }
